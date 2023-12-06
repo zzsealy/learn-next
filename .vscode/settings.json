@@ -1,0 +1,32 @@
+{
+"editor.defaultFormatter": "esbenp.prettier-vscode",
+"editor.quickSuggestions": {
+    "strings": "on"
+},
+"files.associations": {
+    "*.css": "tailwindcss"
+},
+
+    "vim.leader": ",",
+    "vim.easymotion": true,
+    "vim.useSystemClipboard": true,
+    // "editor.lineNumbers": "relative",
+    // 代码自动展开
+    "vim.foldfix": true, 
+"workbench.iconTheme": "vscode-icons",
+"workbench.colorTheme": "Sublime Material Theme - Dark",
+"terminal.integrated.fontFamily": "monospace",
+"terminal.integrated.profiles.osx": {
+
+    "zsh": {
+        "path": "/bin/zsh",
+        "args": [
+            "-l",
+            "-i"
+        ]
+    }
+},
+"[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+},
+}
